@@ -98,15 +98,18 @@ ul {
     font-size-adjust: auto;
     overflow-wrap: break-word;
     padding: 1em;
-    margin-top: 0.4em;
     list-style: none;
-    border-radius: 1em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /*border-radius: 1em;*/
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));*/
 }
 .cmember img {
-    width: 80%;
-    float: right;
+    width: 50%;
+}
+.councilimage {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
 }
 .left, .right {
     position: fixed;
@@ -125,6 +128,14 @@ ul {
 }
 .right {
     right: 0;
+}
+.card-body, .card-header, .btn-link, .btn-link:hover {
+    background-color: #497B41;
+    color: #FFFFFF;
+}
+.card {
+    border: 2px solid #2F5029;
+    border-radius: 0%;
 }
 /*.counciltext {
     background-color: #80ABFF;
