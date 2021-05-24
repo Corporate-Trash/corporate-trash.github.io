@@ -137,6 +137,9 @@ ul {
     border: 2px solid #2F5029;
     border-radius: 0%;
 }
+.smalltext {
+  font-size: 14px;
+}
 /*.counciltext {
     background-color: #80ABFF;
 }*/
